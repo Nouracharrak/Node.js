@@ -1,0 +1,22 @@
+NodeJs est ni un language de programmation, ni un framework mais un envirenement pour ceci. 
+Node est ercit en plusieurs languags; (Javascript(le compilateur de package)), C et C++ (runtime pour executer le js est ecrit en c++)
+NodeJs est utilisé en frontend et backend; il n'est pas utilisé que pour construire le serveur. 
+Javascript est un language commun utilisé pour faire à la fois le back et le front end à l'aide de framework.
+Creer une fonction et si jamais on aura utiliser dutilise cette fonction on peut l'utiliser dans les deuc coté 
+Cela permet de gagner en productivité et efficacité
+Type d'app avec Nodejs: web app, Rest API, Real time Chat (chat bot), Complex SPAs(single page), Data Streaming (youtube et tt les site en temps reel), loT App (object connecté), REST API Server. 
+Pour IA, on utilise Python et NodeJs
+Les app qui utilise NodeJs: Twitter, Reddit, Spotify, Netflix, Linkedin
+avantages NodeJs: rapide, multipaltforme, mainenable, packages
+
+la doc mongoose: https://mongoosejs.com/docs/
+la doc pour l'utilisation de postman: https://learning.postman.com/docs/sending-requests/variables/variables/#defining-variables
+
+l'exercice message: https://magnetic-eyebrow-5fa.notion.site/FEATURE-MESSAGE-146c68fcdc0e802580cbce1e8c14f158
+Les commandes à utilisées pour:
+Step 0: https://magnetic-eyebrow-5fa.notion.site/FEATURE-MESSAGE-146c68fcdc0e802580cbce1e8c14f158
+NODE X EXPRESS JWT MVC X CRUD: https://magnetic-eyebrow-5fa.notion.site/NODE-X-EXPRESS-JWT-MVC-X-CRUD-5ab56761fc9c4056b0ef6b63bd4cca47
+Step 1: https://magnetic-eyebrow-5fa.notion.site/LA-FOIRE-10935f3b082a46c5892d9b5332765226
+TP: https://magnetic-eyebrow-5fa.notion.site/REACT-JS-14ac68fcdc0e8087b975f64e6a0a47c1
+
+
