@@ -1,0 +1,67 @@
+/* Styles spécifiques au formulaire d'inscription */
+.register-form {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.register-form input:focus {
+    border-color: #007bff;
+}
+
+.register-form button {
+    background-color: #171819;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: rgb(181, 102, 102);
+}
+
+.register-form a {
+    color: #18191a;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.register-form a:hover {
+    text-decoration: underline;
+}
+
+/* Ajout pour mobile */
+@media (max-width: 480px) {
+    .register-form {
+        padding: 15px;
+    }
+
+    .register-form input,
+    .register-form button {
+        font-size: 14px;
+    }
+}

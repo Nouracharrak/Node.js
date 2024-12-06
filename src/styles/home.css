@@ -1,0 +1,58 @@
+/* Conteneur principal pour aligner les articles en flex */
+.page-title{
+    color: bisque;
+    text-align: center;
+  }
+  .articles-container {
+    display: flex;               /* Active Flexbox */
+    flex-wrap: wrap;             /* Permet de passer à la ligne si nécessaire */
+    justify-content: center; /* Aligne les articles à gauche */
+    gap: 20px;                   /* Espace entre les articles */
+    padding: 20px;
+  }
+  
+  /* Chaque article dans le conteneur flex */
+  .article {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments à la verticale */
+    align-items: center; /* Centrer le contenu (images, textes, etc.) */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px; /* Largeur fixe pour les cartes */
+  }
+  
+  .article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style pour l'image */
+  .article img {
+    width: 100%;               /* L'image prend toute la largeur du conteneur */
+    height: 200px;             /* Fixe la hauteur de l'image */
+    object-fit: cover;         /* Couvre l'espace sans déformer l'image, mais peut la recadrer */
+    border-radius: 4px;        /* Arrondir légèrement les coins des images */
+  }
+  
+  /* Nom de l'article */
+  .article-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: bisque;
+  }
+  
+  /* Prix de l'article */
+  .article-price {
+    font-size: 1rem;
+    color: #070707;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

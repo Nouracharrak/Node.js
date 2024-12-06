@@ -7,6 +7,17 @@ import reportWebVitals from './reportWebVitals';
 // BrowserRouter est un composant 
 // qui permet de gérer la navigation (routing) dans une application React
 import { BrowserRouter } from 'react-router-dom';
+import axios from 'axios';
+
+// context
+import { AuthProvider } from './context/AuthContext';
+
+// Redux
+import store from './redux/store'
+import {Provider} from 'react-redux'
+
+// pour que le cookie soit correctement géré dans les requetes axios, il faut rajouter withcredentials
+axios.defaults.withCredentials = true;
 
 // Trouve l'élément HTML avec l'ID 'root' dans le DOM
 // Cela correspond généralement à une div 
@@ -21,13 +32,12 @@ root.render(
   // Il n'a aucun effet sur la production, 
   // mais aide à écrire un code React plus propre
   <React.StrictMode>
-    {/* BrowserRouter encapsule l'application 
-    pour activer la gestion des routes */}
     <BrowserRouter>
-      {/* App est le composant principal de l'application */}
-      {/* C'est ici que sont définies les routes 
-      et le contenu de l'application */}
+    <Provider store={store}>
+    <AuthProvider>
       <App />
+    </AuthProvider>
+    </Provider>
     </BrowserRouter>
   </React.StrictMode>
 );

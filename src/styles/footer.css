@@ -1,0 +1,85 @@
+/* Style général du footer avec la classe my-footer */
+.my-footer {
+    background-color: #333; /* Fond sombre */
+    color: white; /* Texte blanc */
+    padding: 40px 20px; /* Espacement interne */
+    text-align: center;
+    font-size: 14px; /* Taille du texte */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  /* Structure du footer */
+  .my-footer-content {
+    max-width: 1200px; /* Limiter la largeur */
+    margin: 0 auto;
+  }
+  
+  /* Liens de navigation */
+  .my-footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .my-footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .my-footer-nav a {
+    color: white; /* Texte des liens en blanc */
+    text-decoration: none; /* Supprimer les soulignements */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Animation au survol */
+  }
+  
+  .my-footer-nav a:hover {
+    color: #ff4081; /* Couleur au survol */
+  }
+  
+  /* Réseaux sociaux */
+  .my-social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .my-social-media li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .my-social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px; /* Taille des icônes */
+    transition: color 0.3s ease-in-out; /* Animation au survol */
+  }
+  
+  .my-social-media a:hover {
+    color: #ff4081; /* Couleur au survol */
+  }
+  
+  /* Informations légales */
+  .my-footer-info p {
+    margin: 5px 0;
+  }
+  
+  .my-footer-info a {
+    color: #ff4081; /* Couleur du lien dans les infos */
+    text-decoration: none;
+  }
+  
+  .my-footer-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pour la mise en forme des icônes FontAwesome (si tu utilises FontAwesome) */
+  .my-social-media i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
